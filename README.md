@@ -10,10 +10,10 @@
 <h3>Project instructions :</h3><br>
  1 - Download/Clone this project<br>
  2 - Open it in your IDE<br>
- 3 - Synchronize the POM file<br><br>
+ 3 - Synchronize the POM file<br>
  4 - Run the project from the testNG file <br>
     src > test > resources > runner > testng.xml <br>
  
-<h3>Reports :</h3><br>
+<h3>Reports :</h3>
  1- After test execution go to the extent.html file<br>
     target > surefire-reports > html > extent.html<br>
