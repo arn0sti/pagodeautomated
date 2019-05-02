@@ -1,0 +1,2 @@
+# pagodeautomated
+Pagode Automated Tests
