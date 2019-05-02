@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Data_Driven_Basics">
+              <span class="suite-name border-failed">Data Driven Basics</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Data_Driven_Basics">
+                    <span>C:\Users\hugo.oliveira\eclipse-workspace\Pagode-Simulator-Tests\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Data_Driven_Basics">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Data_Driven_Basics">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Data_Driven_Basics">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Data_Driven_Basics">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Data_Driven_Basics">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Data_Driven_Basics">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">47 methods, 3 failed,   44 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Data_Driven_Basics" class="hide-methods failed suite-Data_Driven_Basics"> (hide)</a> <!-- hide-methods failed suite-Data_Driven_Basics -->
+                      <a href="#" panel-name="suite-Data_Driven_Basics" class="show-methods failed suite-Data_Driven_Basics"> (show)</a> <!-- show-methods failed suite-Data_Driven_Basics -->
+                    </span>
+                    <div class="method-list-content failed suite-Data_Driven_Basics">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=1/20/87, fleexin_fixe=1744.7411178602995, loan_initial_duration=249.0, initial_capital=1...)">runSimulation({birth_date=1/20/87, fleexin_fixe=1744.7411178602995, loan_initial_duration=249.0, initial_capital=1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=6/21/80, fleexin_fixe=28705.51482830813, loan_initial_duration=143.0, initial_capital=48...)">runSimulation({birth_date=6/21/80, fleexin_fixe=28705.51482830813, loan_initial_duration=143.0, initial_capital=48...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=11/30/87, fleexin_fixe=74700.65031803571, loan_initial_duration=223.0, initial_capital=9...)">runSimulation({birth_date=11/30/87, fleexin_fixe=74700.65031803571, loan_initial_duration=223.0, initial_capital=9...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Data_Driven_Basics -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Data_Driven_Basics" class="hide-methods passed suite-Data_Driven_Basics"> (hide)</a> <!-- hide-methods passed suite-Data_Driven_Basics -->
+                      <a href="#" panel-name="suite-Data_Driven_Basics" class="show-methods passed suite-Data_Driven_Basics"> (show)</a> <!-- show-methods passed suite-Data_Driven_Basics -->
+                    </span>
+                    <div class="method-list-content passed suite-Data_Driven_Basics">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Login_TC" hash-for-method="doLogin">doLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=1/3/95, fleexin_fixe=2503.1290129225035, loan_initial_duration=91.0, initial_capital=237...)">runSimulation({birth_date=1/3/95, fleexin_fixe=2503.1290129225035, loan_initial_duration=91.0, initial_capital=237...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=6/19/93, fleexin_fixe=45904.58647003648, loan_initial_duration=107.0, initial_capital=85...)">runSimulation({birth_date=6/19/93, fleexin_fixe=45904.58647003648, loan_initial_duration=107.0, initial_capital=85...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=7/20/85, fleexin_fixe=1950.7966203305145, loan_initial_duration=241.0, initial_capital=1...)">runSimulation({birth_date=7/20/85, fleexin_fixe=1950.7966203305145, loan_initial_duration=241.0, initial_capital=1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=9/13/93, fleexin_fixe=7292.817889560081, loan_initial_duration=163.0, initial_capital=38...)">runSimulation({birth_date=9/13/93, fleexin_fixe=7292.817889560081, loan_initial_duration=163.0, initial_capital=38...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=5/21/92, fleexin_fixe=26910.917089969196, loan_initial_duration=117.0, initial_capital=7...)">runSimulation({birth_date=5/21/92, fleexin_fixe=26910.917089969196, loan_initial_duration=117.0, initial_capital=7...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=2/10/85, fleexin_fixe=1913.4827507066134, loan_initial_duration=139.0, initial_capital=8...)">runSimulation({birth_date=2/10/85, fleexin_fixe=1913.4827507066134, loan_initial_duration=139.0, initial_capital=8...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=9/16/89, fleexin_fixe=20728.23262980016, loan_initial_duration=89.0, initial_capital=871...)">runSimulation({birth_date=9/16/89, fleexin_fixe=20728.23262980016, loan_initial_duration=89.0, initial_capital=871...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=3/18/80, fleexin_fixe=972.9958491130034, loan_initial_duration=70.0, initial_capital=577...)">runSimulation({birth_date=3/18/80, fleexin_fixe=972.9958491130034, loan_initial_duration=70.0, initial_capital=577...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=10/25/95, fleexin_fixe=1064.4568991409628, loan_initial_duration=21.0, initial_capital=1...)">runSimulation({birth_date=10/25/95, fleexin_fixe=1064.4568991409628, loan_initial_duration=21.0, initial_capital=1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=8/3/87, fleexin_fixe=63742.64864638662, loan_initial_duration=244.0, initial_capital=249...)">runSimulation({birth_date=8/3/87, fleexin_fixe=63742.64864638662, loan_initial_duration=244.0, initial_capital=249...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=7/7/91, fleexin_fixe=6929.162441257624, loan_initial_duration=104.0, initial_capital=255...)">runSimulation({birth_date=7/7/91, fleexin_fixe=6929.162441257624, loan_initial_duration=104.0, initial_capital=255...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=6/13/82, fleexin_fixe=61198.86629718451, loan_initial_duration=207.0, initial_capital=69...)">runSimulation({birth_date=6/13/82, fleexin_fixe=61198.86629718451, loan_initial_duration=207.0, initial_capital=69...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=6/19/87, fleexin_fixe=17222.665544958352, loan_initial_duration=106.0, initial_capital=3...)">runSimulation({birth_date=6/19/87, fleexin_fixe=17222.665544958352, loan_initial_duration=106.0, initial_capital=3...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=10/6/84, fleexin_fixe=126382.91072358892, loan_initial_duration=222.0, initial_capital=7...)">runSimulation({birth_date=10/6/84, fleexin_fixe=126382.91072358892, loan_initial_duration=222.0, initial_capital=7...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=11/17/93, fleexin_fixe=99544.755437699, loan_initial_duration=237.0, initial_capital=403...)">runSimulation({birth_date=11/17/93, fleexin_fixe=99544.755437699, loan_initial_duration=237.0, initial_capital=403...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=6/7/94, fleexin_fixe=1295.5013208749174, loan_initial_duration=154.0, initial_capital=47...)">runSimulation({birth_date=6/7/94, fleexin_fixe=1295.5013208749174, loan_initial_duration=154.0, initial_capital=47...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=5/15/83, fleexin_fixe=48571.23921486063, loan_initial_duration=182.0, initial_capital=92...)">runSimulation({birth_date=5/15/83, fleexin_fixe=48571.23921486063, loan_initial_duration=182.0, initial_capital=92...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=7/12/89, fleexin_fixe=564.4908019140272, loan_initial_duration=214.0, initial_capital=65...)">runSimulation({birth_date=7/12/89, fleexin_fixe=564.4908019140272, loan_initial_duration=214.0, initial_capital=65...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=67...)">runSimulation({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=67...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=9/4/85, fleexin_fixe=35189.59740155776, loan_initial_duration=203.0, initial_capital=379...)">runSimulation({birth_date=9/4/85, fleexin_fixe=35189.59740155776, loan_initial_duration=203.0, initial_capital=379...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=9/1/87, fleexin_fixe=2927.0573222228004, loan_initial_duration=121.0, initial_capital=11...)">runSimulation({birth_date=9/1/87, fleexin_fixe=2927.0573222228004, loan_initial_duration=121.0, initial_capital=11...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=11/1/91, fleexin_fixe=9402.35320224165, loan_initial_duration=174.0, initial_capital=665...)">runSimulation({birth_date=11/1/91, fleexin_fixe=9402.35320224165, loan_initial_duration=174.0, initial_capital=665...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=12/19/80, fleexin_fixe=2875.5626967255293, loan_initial_duration=234.0, initial_capital=...)">runSimulation({birth_date=12/19/80, fleexin_fixe=2875.5626967255293, loan_initial_duration=234.0, initial_capital=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=4/24/83, fleexin_fixe=11259.2128884763, loan_initial_duration=59.0, initial_capital=3870...)">runSimulation({birth_date=4/24/83, fleexin_fixe=11259.2128884763, loan_initial_duration=59.0, initial_capital=3870...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=5/27/80, fleexin_fixe=856.0330354678672, loan_initial_duration=97.0, initial_capital=425...)">runSimulation({birth_date=5/27/80, fleexin_fixe=856.0330354678672, loan_initial_duration=97.0, initial_capital=425...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=7/4/88, fleexin_fixe=92438.54817659344, loan_initial_duration=195.0, initial_capital=819...)">runSimulation({birth_date=7/4/88, fleexin_fixe=92438.54817659344, loan_initial_duration=195.0, initial_capital=819...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=1/24/89, fleexin_fixe=4378.694731330493, loan_initial_duration=57.0, initial_capital=470...)">runSimulation({birth_date=1/24/89, fleexin_fixe=4378.694731330493, loan_initial_duration=57.0, initial_capital=470...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=4/6/80, fleexin_fixe=13105.881381156429, loan_initial_duration=182.0, initial_capital=34...)">runSimulation({birth_date=4/6/80, fleexin_fixe=13105.881381156429, loan_initial_duration=182.0, initial_capital=34...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=3/24/94, fleexin_fixe=7195.291394724618, loan_initial_duration=86.0, initial_capital=186...)">runSimulation({birth_date=3/24/94, fleexin_fixe=7195.291394724618, loan_initial_duration=86.0, initial_capital=186...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=4/5/83, fleexin_fixe=19106.631843656636, loan_initial_duration=57.0, initial_capital=370...)">runSimulation({birth_date=4/5/83, fleexin_fixe=19106.631843656636, loan_initial_duration=57.0, initial_capital=370...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=11/7/91, fleexin_fixe=73844.27737063859, loan_initial_duration=212.0, initial_capital=50...)">runSimulation({birth_date=11/7/91, fleexin_fixe=73844.27737063859, loan_initial_duration=212.0, initial_capital=50...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=6/26/93, fleexin_fixe=22995.94189955639, loan_initial_duration=111.0, initial_capital=64...)">runSimulation({birth_date=6/26/93, fleexin_fixe=22995.94189955639, loan_initial_duration=111.0, initial_capital=64...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=1/24/95, fleexin_fixe=18431.590776616227, loan_initial_duration=106.0, initial_capital=8...)">runSimulation({birth_date=1/24/95, fleexin_fixe=18431.590776616227, loan_initial_duration=106.0, initial_capital=8...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=12/31/80, fleexin_fixe=190102.68360279716, loan_initial_duration=241.0, initial_capital=...)">runSimulation({birth_date=12/31/80, fleexin_fixe=190102.68360279716, loan_initial_duration=241.0, initial_capital=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=1/31/87, fleexin_fixe=2810.300921807474, loan_initial_duration=226.0, initial_capital=21...)">runSimulation({birth_date=1/31/87, fleexin_fixe=2810.300921807474, loan_initial_duration=226.0, initial_capital=21...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=5/11/90, fleexin_fixe=13071.59801776818, loan_initial_duration=91.0, initial_capital=742...)">runSimulation({birth_date=5/11/90, fleexin_fixe=13071.59801776818, loan_initial_duration=91.0, initial_capital=742...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=11/29/87, fleexin_fixe=21835.33825119622, loan_initial_duration=106.0, initial_capital=8...)">runSimulation({birth_date=11/29/87, fleexin_fixe=21835.33825119622, loan_initial_duration=106.0, initial_capital=8...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=67...)">runSimulation({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=67...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=6/2/87, fleexin_fixe=59303.49432496654, loan_initial_duration=214.0, initial_capital=602...)">runSimulation({birth_date=6/2/87, fleexin_fixe=59303.49432496654, loan_initial_duration=214.0, initial_capital=602...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=8/17/81, fleexin_fixe=101296.88431314733, loan_initial_duration=219.0, initial_capital=7...)">runSimulation({birth_date=8/17/81, fleexin_fixe=101296.88431314733, loan_initial_duration=219.0, initial_capital=7...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=8/3/94, fleexin_fixe=64798.96878296429, loan_initial_duration=225.0, initial_capital=900...)">runSimulation({birth_date=8/3/94, fleexin_fixe=64798.96878296429, loan_initial_duration=225.0, initial_capital=900...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=11/25/81, fleexin_fixe=178900.02393583744, loan_initial_duration=188.0, initial_capital=...)">runSimulation({birth_date=11/25/81, fleexin_fixe=178900.02393583744, loan_initial_duration=188.0, initial_capital=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="testcases.Simulator_TC" hash-for-method="runSimulation({birth_date=1/28/81, fleexin_fixe=596.4091881459306, loan_initial_duration=136.0, initial_capital=11...)">runSimulation({birth_date=1/28/81, fleexin_fixe=596.4091881459306, loan_initial_duration=136.0, initial_capital=11...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Data_Driven_Basics -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Data_Driven_Basics" class="panel Data_Driven_Basics">
+          <div class="suite-Data_Driven_Basics-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.Simulator_TC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=1/20/87, fleexin_fixe=1744.7411178602995, loan_initial_duration=249.0, initial_capital=1...)">
+                  </a> <!-- runSimulation({birth_date=1/20/87, fleexin_fixe=1744.7411178602995, loan_initial_duration=249.0, initial_capital=1...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=1/20/87, fleexin_fixe=1744.7411178602995, loan_initial_duration=249.0, initial_capital=1126551.0, smoking_habit=No, type_of_loan=Standard, cover_ratio=6.0, current_insurance=2717.2410119999995, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=3.0, fleexin_v2=1615.8870560127841, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=3/22/16})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testcases.Simulator_TC.runSimulation(Simulator_TC.java:69)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=6/21/80, fleexin_fixe=28705.51482830813, loan_initial_duration=143.0, initial_capital=48...)">
+                  </a> <!-- runSimulation({birth_date=6/21/80, fleexin_fixe=28705.51482830813, loan_initial_duration=143.0, initial_capital=48...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=6/21/80, fleexin_fixe=28705.51482830813, loan_initial_duration=143.0, initial_capital=4872447.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=55.0, current_insurance=112218.54496875001, project_type=New business, bank=BNP Paribas, initial_rate=4.0, fleexin_v2=53036.930371129616, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=6/19/18})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testcases.Simulator_TC.runSimulation(Simulator_TC.java:69)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=11/30/87, fleexin_fixe=74700.65031803571, loan_initial_duration=223.0, initial_capital=9...)">
+                  </a> <!-- runSimulation({birth_date=11/30/87, fleexin_fixe=74700.65031803571, loan_initial_duration=223.0, initial_capital=9...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=11/30/87, fleexin_fixe=74700.65031803571, loan_initial_duration=223.0, initial_capital=9676125.0, smoking_habit=Yes, type_of_loan=0% rate loan, cover_ratio=42.0, current_insurance=148267.263375, project_type=New business, bank=BNP Paribas, initial_rate=0.0, fleexin_v2=59977.51231978857, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=8/13/17})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testcases.Simulator_TC.runSimulation(Simulator_TC.java:69)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Basics-class-failed -->
+          <div class="suite-Data_Driven_Basics-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Simulator_TC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=1/3/95, fleexin_fixe=2503.1290129225035, loan_initial_duration=91.0, initial_capital=237...)">
+                  </a> <!-- runSimulation({birth_date=1/3/95, fleexin_fixe=2503.1290129225035, loan_initial_duration=91.0, initial_capital=237...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=1/3/95, fleexin_fixe=2503.1290129225035, loan_initial_duration=91.0, initial_capital=2378170.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=22.0, current_insurance=6093.069720833334, project_type=New business, bank=BNP Paribas, initial_rate=1.0, fleexin_v2=1880.6419477957493, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=10/4/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=6/19/93, fleexin_fixe=45904.58647003648, loan_initial_duration=107.0, initial_capital=85...)">
+                  </a> <!-- runSimulation({birth_date=6/19/93, fleexin_fixe=45904.58647003648, loan_initial_duration=107.0, initial_capital=85...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=6/19/93, fleexin_fixe=45904.58647003648, loan_initial_duration=107.0, initial_capital=8579884.0, smoking_habit=Yes, type_of_loan=0% rate loan, cover_ratio=90.0, current_insurance=109650.91751999999, project_type=New business, bank=BNP Paribas, initial_rate=0.0, fleexin_v2=24947.117210382832, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Artisan, BTP, auto-entrepreneur, loan_effective_date=7/9/16})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=7/20/85, fleexin_fixe=1950.7966203305145, loan_initial_duration=241.0, initial_capital=1...)">
+                  </a> <!-- runSimulation({birth_date=7/20/85, fleexin_fixe=1950.7966203305145, loan_initial_duration=241.0, initial_capital=1...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=7/20/85, fleexin_fixe=1950.7966203305145, loan_initial_duration=241.0, initial_capital=1288642.0, smoking_habit=No, type_of_loan=Standard, cover_ratio=11.0, current_insurance=5558.986814333332, project_type=New business, bank=BNP Paribas, initial_rate=4.0, fleexin_v2=1694.0885540796417, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=1/13/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=9/13/93, fleexin_fixe=7292.817889560081, loan_initial_duration=163.0, initial_capital=38...)">
+                  </a> <!-- runSimulation({birth_date=9/13/93, fleexin_fixe=7292.817889560081, loan_initial_duration=163.0, initial_capital=38...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=9/13/93, fleexin_fixe=7292.817889560081, loan_initial_duration=163.0, initial_capital=3824581.0, smoking_habit=Yes, type_of_loan=0% rate loan, cover_ratio=25.0, current_insurance=22262.248570833337, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=0.0, fleexin_v2=5392.280354347381, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=4/18/17})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=5/21/92, fleexin_fixe=26910.917089969196, loan_initial_duration=117.0, initial_capital=7...)">
+                  </a> <!-- runSimulation({birth_date=5/21/92, fleexin_fixe=26910.917089969196, loan_initial_duration=117.0, initial_capital=7...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=5/21/92, fleexin_fixe=26910.917089969196, loan_initial_duration=117.0, initial_capital=7115716.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=60.0, current_insurance=65909.31945, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=4.0, fleexin_v2=31914.575441284796, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=1/2/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=2/10/85, fleexin_fixe=1913.4827507066134, loan_initial_duration=139.0, initial_capital=8...)">
+                  </a> <!-- runSimulation({birth_date=2/10/85, fleexin_fixe=1913.4827507066134, loan_initial_duration=139.0, initial_capital=8...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=2/10/85, fleexin_fixe=1913.4827507066134, loan_initial_duration=139.0, initial_capital=8224904.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=5.0, current_insurance=10135.480658333332, project_type=New business, bank=BNP Paribas, initial_rate=4.0, fleexin_v2=3096.925659600435, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=11/2/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=9/16/89, fleexin_fixe=20728.23262980016, loan_initial_duration=89.0, initial_capital=871...)">
+                  </a> <!-- runSimulation({birth_date=9/16/89, fleexin_fixe=20728.23262980016, loan_initial_duration=89.0, initial_capital=871...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=9/16/89, fleexin_fixe=20728.23262980016, loan_initial_duration=89.0, initial_capital=8717500.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=63.0, current_insurance=56293.25625, project_type=New business, bank=BNP Paribas, initial_rate=3.0, fleexin_v2=23741.06834227685, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Artisan, BTP, auto-entrepreneur, loan_effective_date=4/30/16})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=3/18/80, fleexin_fixe=972.9958491130034, loan_initial_duration=70.0, initial_capital=577...)">
+                  </a> <!-- runSimulation({birth_date=3/18/80, fleexin_fixe=972.9958491130034, loan_initial_duration=70.0, initial_capital=577...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=3/18/80, fleexin_fixe=972.9958491130034, loan_initial_duration=70.0, initial_capital=5777793.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=8.0, current_insurance=3445.2753362107496, project_type=New business, bank=BNP Paribas, initial_rate=1.0, fleexin_v2=1561.6016895409093, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=5/7/16})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=10/25/95, fleexin_fixe=1064.4568991409628, loan_initial_duration=21.0, initial_capital=1...)">
+                  </a> <!-- runSimulation({birth_date=10/25/95, fleexin_fixe=1064.4568991409628, loan_initial_duration=21.0, initial_capital=1...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=10/25/95, fleexin_fixe=1064.4568991409628, loan_initial_duration=21.0, initial_capital=1124065.0, smoking_habit=Yes, type_of_loan=Bridge Loan, cover_ratio=23.0, current_insurance=1007.2090760416669, project_type=New business, bank=BNP Paribas, initial_rate=4.0, fleexin_v2=458.267051980378, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=11/8/18})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=8/3/87, fleexin_fixe=63742.64864638662, loan_initial_duration=244.0, initial_capital=249...)">
+                  </a> <!-- runSimulation({birth_date=8/3/87, fleexin_fixe=63742.64864638662, loan_initial_duration=244.0, initial_capital=249...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=8/3/87, fleexin_fixe=63742.64864638662, loan_initial_duration=244.0, initial_capital=2492275.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=87.0, current_insurance=115099.4901875, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=3.0, fleexin_v2=136966.61611491855, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=10/22/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=7/7/91, fleexin_fixe=6929.162441257624, loan_initial_duration=104.0, initial_capital=255...)">
+                  </a> <!-- runSimulation({birth_date=7/7/91, fleexin_fixe=6929.162441257624, loan_initial_duration=104.0, initial_capital=255...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=7/7/91, fleexin_fixe=6929.162441257624, loan_initial_duration=104.0, initial_capital=2550120.0, smoking_habit=Yes, type_of_loan=0% rate loan, cover_ratio=36.0, current_insurance=13464.633600000001, project_type=New business, bank=BNP Paribas, initial_rate=0.0, fleexin_v2=4322.278307387658, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Artisan, BTP, auto-entrepreneur, loan_effective_date=8/8/17})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=6/13/82, fleexin_fixe=61198.86629718451, loan_initial_duration=207.0, initial_capital=69...)">
+                  </a> <!-- runSimulation({birth_date=6/13/82, fleexin_fixe=61198.86629718451, loan_initial_duration=207.0, initial_capital=69...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=6/13/82, fleexin_fixe=61198.86629718451, loan_initial_duration=207.0, initial_capital=6958942.0, smoking_habit=No, type_of_loan=0% rate loan, cover_ratio=39.0, current_insurance=93496.865241, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=0.0, fleexin_v2=54388.978087682204, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=11/24/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=6/19/87, fleexin_fixe=17222.665544958352, loan_initial_duration=106.0, initial_capital=3...)">
+                  </a> <!-- runSimulation({birth_date=6/19/87, fleexin_fixe=17222.665544958352, loan_initial_duration=106.0, initial_capital=3...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=6/19/87, fleexin_fixe=17222.665544958352, loan_initial_duration=106.0, initial_capital=3482043.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=82.0, current_insurance=49967.31705, project_type=New business, bank=BNP Paribas, initial_rate=4.0, fleexin_v2=24134.46979701829, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=10/23/16})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=10/6/84, fleexin_fixe=126382.91072358892, loan_initial_duration=222.0, initial_capital=7...)">
+                  </a> <!-- runSimulation({birth_date=10/6/84, fleexin_fixe=126382.91072358892, loan_initial_duration=222.0, initial_capital=7...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=10/6/84, fleexin_fixe=126382.91072358892, loan_initial_duration=222.0, initial_capital=7951185.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=77.0, current_insurance=277804.46491875, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=3.0, fleexin_v2=276561.64739249385, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=11/1/17})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=11/17/93, fleexin_fixe=99544.755437699, loan_initial_duration=237.0, initial_capital=403...)">
+                  </a> <!-- runSimulation({birth_date=11/17/93, fleexin_fixe=99544.755437699, loan_initial_duration=237.0, initial_capital=403...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=11/17/93, fleexin_fixe=99544.755437699, loan_initial_duration=237.0, initial_capital=4034369.0, smoking_habit=Yes, type_of_loan=0% rate loan, cover_ratio=80.0, current_insurance=133725.88445333336, project_type=New business, bank=BNP Paribas, initial_rate=0.0, fleexin_v2=71810.46189888052, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=4/14/18})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=6/7/94, fleexin_fixe=1295.5013208749174, loan_initial_duration=154.0, initial_capital=47...)">
+                  </a> <!-- runSimulation({birth_date=6/7/94, fleexin_fixe=1295.5013208749174, loan_initial_duration=154.0, initial_capital=47...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=6/7/94, fleexin_fixe=1295.5013208749174, loan_initial_duration=154.0, initial_capital=4730907.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=3.0, current_insurance=3837.9483037500004, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=5.0, fleexin_v2=1837.3829276331576, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=2/22/17})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=5/15/83, fleexin_fixe=48571.23921486063, loan_initial_duration=182.0, initial_capital=92...)">
+                  </a> <!-- runSimulation({birth_date=5/15/83, fleexin_fixe=48571.23921486063, loan_initial_duration=182.0, initial_capital=92...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=5/15/83, fleexin_fixe=48571.23921486063, loan_initial_duration=182.0, initial_capital=9274724.0, smoking_habit=Yes, type_of_loan=0% rate loan, cover_ratio=37.0, current_insurance=100204.11809599998, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=0.0, fleexin_v2=43391.30532402057, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=10/22/16})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=7/12/89, fleexin_fixe=564.4908019140272, loan_initial_duration=214.0, initial_capital=65...)">
+                  </a> <!-- runSimulation({birth_date=7/12/89, fleexin_fixe=564.4908019140272, loan_initial_duration=214.0, initial_capital=65...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=7/12/89, fleexin_fixe=564.4908019140272, loan_initial_duration=214.0, initial_capital=65989.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=50.0, current_insurance=1436.6355208333334, project_type=New business, bank=BNP Paribas, initial_rate=2.0, fleexin_v2=1017.2879039916498, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=5/21/17})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=67...)">
+                  </a> <!-- runSimulation({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=67...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=6760528.0, smoking_habit=Yes, type_of_loan=Bridge Loan, cover_ratio=17.0, current_insurance=3160.5468400000004, project_type=New business, bank=BNP Paribas, initial_rate=1.0, fleexin_v2=1232.4335648630422, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=9/25/18})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=9/4/85, fleexin_fixe=35189.59740155776, loan_initial_duration=203.0, initial_capital=379...)">
+                  </a> <!-- runSimulation({birth_date=9/4/85, fleexin_fixe=35189.59740155776, loan_initial_duration=203.0, initial_capital=379...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=9/4/85, fleexin_fixe=35189.59740155776, loan_initial_duration=203.0, initial_capital=3798201.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=40.0, current_insurance=68589.17972500001, project_type=New business, bank=BNP Paribas, initial_rate=2.0, fleexin_v2=69828.38150890717, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=9/15/18})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=9/1/87, fleexin_fixe=2927.0573222228004, loan_initial_duration=121.0, initial_capital=11...)">
+                  </a> <!-- runSimulation({birth_date=9/1/87, fleexin_fixe=2927.0573222228004, loan_initial_duration=121.0, initial_capital=11...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=9/1/87, fleexin_fixe=2927.0573222228004, loan_initial_duration=121.0, initial_capital=1146651.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=41.0, current_insurance=9294.800783125, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=4.0, fleexin_v2=4520.247739547822, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=11/8/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=11/1/91, fleexin_fixe=9402.35320224165, loan_initial_duration=174.0, initial_capital=665...)">
+                  </a> <!-- runSimulation({birth_date=11/1/91, fleexin_fixe=9402.35320224165, loan_initial_duration=174.0, initial_capital=665...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=11/1/91, fleexin_fixe=9402.35320224165, loan_initial_duration=174.0, initial_capital=6652913.0, smoking_habit=Yes, type_of_loan=Standard, cover_ratio=10.0, current_insurance=18162.45249, project_type=New business, bank=BNP Paribas, initial_rate=3.0, fleexin_v2=6692.300344200168, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=10/27/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=12/19/80, fleexin_fixe=2875.5626967255293, loan_initial_duration=234.0, initial_capital=...)">
+                  </a> <!-- runSimulation({birth_date=12/19/80, fleexin_fixe=2875.5626967255293, loan_initial_duration=234.0, initial_capital=...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=12/19/80, fleexin_fixe=2875.5626967255293, loan_initial_duration=234.0, initial_capital=314114.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=17.0, current_insurance=3426.4589929308754, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=4.0, fleexin_v2=6219.83456550623, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=7/11/16})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=4/24/83, fleexin_fixe=11259.2128884763, loan_initial_duration=59.0, initial_capital=3870...)">
+                  </a> <!-- runSimulation({birth_date=4/24/83, fleexin_fixe=11259.2128884763, loan_initial_duration=59.0, initial_capital=3870...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=4/24/83, fleexin_fixe=11259.2128884763, loan_initial_duration=59.0, initial_capital=3870100.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=60.0, current_insurance=18624.856249999997, project_type=New business, bank=BNP Paribas, initial_rate=3.0, fleexin_v2=16569.01667447285, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=7/10/17})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=5/27/80, fleexin_fixe=856.0330354678672, loan_initial_duration=97.0, initial_capital=425...)">
+                  </a> <!-- runSimulation({birth_date=5/27/80, fleexin_fixe=856.0330354678672, loan_initial_duration=97.0, initial_capital=425...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=5/27/80, fleexin_fixe=856.0330354678672, loan_initial_duration=97.0, initial_capital=4254535.0, smoking_habit=No, type_of_loan=Standard, cover_ratio=4.0, current_insurance=2161.9333093621663, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=3.0, fleexin_v2=759.5864240115213, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=4/3/16})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=7/4/88, fleexin_fixe=92438.54817659344, loan_initial_duration=195.0, initial_capital=819...)">
+                  </a> <!-- runSimulation({birth_date=7/4/88, fleexin_fixe=92438.54817659344, loan_initial_duration=195.0, initial_capital=819...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=7/4/88, fleexin_fixe=92438.54817659344, loan_initial_duration=195.0, initial_capital=8195251.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=91.0, current_insurance=292247.77269187506, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=1.0, fleexin_v2=185185.1072327596, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Artisan, BTP, auto-entrepreneur, loan_effective_date=12/30/17})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=1/24/89, fleexin_fixe=4378.694731330493, loan_initial_duration=57.0, initial_capital=470...)">
+                  </a> <!-- runSimulation({birth_date=1/24/89, fleexin_fixe=4378.694731330493, loan_initial_duration=57.0, initial_capital=470...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=1/24/89, fleexin_fixe=4378.694731330493, loan_initial_duration=57.0, initial_capital=4703046.0, smoking_habit=No, type_of_loan=Standard, cover_ratio=62.0, current_insurance=11226.170802, project_type=New business, bank=BNP Paribas, initial_rate=1.0, fleexin_v2=2420.671581283907, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=1/28/17})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=4/6/80, fleexin_fixe=13105.881381156429, loan_initial_duration=182.0, initial_capital=34...)">
+                  </a> <!-- runSimulation({birth_date=4/6/80, fleexin_fixe=13105.881381156429, loan_initial_duration=182.0, initial_capital=34...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=4/6/80, fleexin_fixe=13105.881381156429, loan_initial_duration=182.0, initial_capital=3434696.0, smoking_habit=No, type_of_loan=Standard, cover_ratio=12.0, current_insurance=18341.27664, project_type=New business, bank=BNP Paribas, initial_rate=5.0, fleexin_v2=12619.371399884803, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Artisan, BTP, auto-entrepreneur, loan_effective_date=11/11/18})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=3/24/94, fleexin_fixe=7195.291394724618, loan_initial_duration=86.0, initial_capital=186...)">
+                  </a> <!-- runSimulation({birth_date=3/24/94, fleexin_fixe=7195.291394724618, loan_initial_duration=86.0, initial_capital=186...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=3/24/94, fleexin_fixe=7195.291394724618, loan_initial_duration=86.0, initial_capital=1861147.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=85.0, current_insurance=19774.686875, project_type=New business, bank=BNP Paribas, initial_rate=4.0, fleexin_v2=6544.646519319641, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=9/1/16})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=4/5/83, fleexin_fixe=19106.631843656636, loan_initial_duration=57.0, initial_capital=370...)">
+                  </a> <!-- runSimulation({birth_date=4/5/83, fleexin_fixe=19106.631843656636, loan_initial_duration=57.0, initial_capital=370...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=4/5/83, fleexin_fixe=19106.631843656636, loan_initial_duration=57.0, initial_capital=3705977.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=100.0, current_insurance=44162.892583333334, project_type=New business, bank=BNP Paribas, initial_rate=3.0, fleexin_v2=28187.526448731325, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=10/11/18})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=11/7/91, fleexin_fixe=73844.27737063859, loan_initial_duration=212.0, initial_capital=50...)">
+                  </a> <!-- runSimulation({birth_date=11/7/91, fleexin_fixe=73844.27737063859, loan_initial_duration=212.0, initial_capital=50...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=11/7/91, fleexin_fixe=73844.27737063859, loan_initial_duration=212.0, initial_capital=5048754.0, smoking_habit=No, type_of_loan=0% rate loan, cover_ratio=94.0, current_insurance=168635.115272, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=0.0, fleexin_v2=56922.55023566715, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=10/5/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=6/26/93, fleexin_fixe=22995.94189955639, loan_initial_duration=111.0, initial_capital=64...)">
+                  </a> <!-- runSimulation({birth_date=6/26/93, fleexin_fixe=22995.94189955639, loan_initial_duration=111.0, initial_capital=64...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=6/26/93, fleexin_fixe=22995.94189955639, loan_initial_duration=111.0, initial_capital=6477703.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=56.0, current_insurance=61894.452165, project_type=New business, bank=BNP Paribas, initial_rate=5.0, fleexin_v2=23978.93440637105, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=8/21/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=1/24/95, fleexin_fixe=18431.590776616227, loan_initial_duration=106.0, initial_capital=8...)">
+                  </a> <!-- runSimulation({birth_date=1/24/95, fleexin_fixe=18431.590776616227, loan_initial_duration=106.0, initial_capital=8...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=1/24/95, fleexin_fixe=18431.590776616227, loan_initial_duration=106.0, initial_capital=8572947.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=25.0, current_insurance=46660.050078125, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=1.0, fleexin_v2=23964.855033093205, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=4/9/18})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=12/31/80, fleexin_fixe=190102.68360279716, loan_initial_duration=241.0, initial_capital=...)">
+                  </a> <!-- runSimulation({birth_date=12/31/80, fleexin_fixe=190102.68360279716, loan_initial_duration=241.0, initial_capital=...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=12/31/80, fleexin_fixe=190102.68360279716, loan_initial_duration=241.0, initial_capital=8970997.0, smoking_habit=Yes, type_of_loan=0% rate loan, cover_ratio=82.0, current_insurance=288486.3311936667, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=0.0, fleexin_v2=164817.55030092824, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=4/16/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=1/31/87, fleexin_fixe=2810.300921807474, loan_initial_duration=226.0, initial_capital=21...)">
+                  </a> <!-- runSimulation({birth_date=1/31/87, fleexin_fixe=2810.300921807474, loan_initial_duration=226.0, initial_capital=21...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=1/31/87, fleexin_fixe=2810.300921807474, loan_initial_duration=226.0, initial_capital=210818.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=94.0, current_insurance=9413.023699999998, project_type=New business, bank=BNP Paribas, initial_rate=3.0, fleexin_v2=5996.547241947204, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=10/7/16})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=5/11/90, fleexin_fixe=13071.59801776818, loan_initial_duration=91.0, initial_capital=742...)">
+                  </a> <!-- runSimulation({birth_date=5/11/90, fleexin_fixe=13071.59801776818, loan_initial_duration=91.0, initial_capital=742...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=5/11/90, fleexin_fixe=13071.59801776818, loan_initial_duration=91.0, initial_capital=7429307.0, smoking_habit=No, type_of_loan=Standard, cover_ratio=25.0, current_insurance=22814.163579166667, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=2.0, fleexin_v2=9012.242272131964, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=1/16/18})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=11/29/87, fleexin_fixe=21835.33825119622, loan_initial_duration=106.0, initial_capital=8...)">
+                  </a> <!-- runSimulation({birth_date=11/29/87, fleexin_fixe=21835.33825119622, loan_initial_duration=106.0, initial_capital=8...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=11/29/87, fleexin_fixe=21835.33825119622, loan_initial_duration=106.0, initial_capital=8702153.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=58.0, current_insurance=62880.307219166665, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=1.0, fleexin_v2=28892.852414135225, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=2/10/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=67...)">
+                  </a> <!-- runSimulation({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=67...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=6760528.0, smoking_habit=Yes, type_of_loan=Bridge Loan, cover_ratio=17.0, current_insurance=3160.5468400000004, project_type=New business, bank=BNP Paribas, initial_rate=1.0, fleexin_v2=1232.4335648630422, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=9/25/18})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=6/2/87, fleexin_fixe=59303.49432496654, loan_initial_duration=214.0, initial_capital=602...)">
+                  </a> <!-- runSimulation({birth_date=6/2/87, fleexin_fixe=59303.49432496654, loan_initial_duration=214.0, initial_capital=602...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=6/2/87, fleexin_fixe=59303.49432496654, loan_initial_duration=214.0, initial_capital=6029020.0, smoking_habit=No, type_of_loan=Standard, cover_ratio=48.0, current_insurance=100805.21439999998, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=3.0, fleexin_v2=53355.40570916311, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Artisan, BTP, auto-entrepreneur, loan_effective_date=1/30/18})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=8/17/81, fleexin_fixe=101296.88431314733, loan_initial_duration=219.0, initial_capital=7...)">
+                  </a> <!-- runSimulation({birth_date=8/17/81, fleexin_fixe=101296.88431314733, loan_initial_duration=219.0, initial_capital=7...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=8/17/81, fleexin_fixe=101296.88431314733, loan_initial_duration=219.0, initial_capital=7281473.0, smoking_habit=Yes, type_of_loan=Refundable at the end, cover_ratio=35.0, current_insurance=145743.233015625, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=4.0, fleexin_v2=203817.07991554023, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Artisan, BTP, auto-entrepreneur, loan_effective_date=2/12/17})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=8/3/94, fleexin_fixe=64798.96878296429, loan_initial_duration=225.0, initial_capital=900...)">
+                  </a> <!-- runSimulation({birth_date=8/3/94, fleexin_fixe=64798.96878296429, loan_initial_duration=225.0, initial_capital=900...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=8/3/94, fleexin_fixe=64798.96878296429, loan_initial_duration=225.0, initial_capital=9008107.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=53.0, current_insurance=228867.848535625, project_type=New business, bank=BNP Paribas, initial_rate=1.0, fleexin_v2=91930.81573678594, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=6/15/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=11/25/81, fleexin_fixe=178900.02393583744, loan_initial_duration=188.0, initial_capital=...)">
+                  </a> <!-- runSimulation({birth_date=11/25/81, fleexin_fixe=178900.02393583744, loan_initial_duration=188.0, initial_capital=...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=11/25/81, fleexin_fixe=178900.02393583744, loan_initial_duration=188.0, initial_capital=6651492.0, smoking_habit=Yes, type_of_loan=Standard, cover_ratio=99.0, current_insurance=199744.30475999997, project_type=Competitor takeover, bank=BNP Paribas, initial_rate=2.0, fleexin_v2=174607.17909305665, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Intermittent, loan_effective_date=8/7/15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runSimulation({birth_date=1/28/81, fleexin_fixe=596.4091881459306, loan_initial_duration=136.0, initial_capital=11...)">
+                  </a> <!-- runSimulation({birth_date=1/28/81, fleexin_fixe=596.4091881459306, loan_initial_duration=136.0, initial_capital=11...) -->
+                  <span class="method-name">runSimulation</span>
+                  <span class="parameters">({birth_date=1/28/81, fleexin_fixe=596.4091881459306, loan_initial_duration=136.0, initial_capital=1122850.0, smoking_habit=No, type_of_loan=Refundable at the end, cover_ratio=8.0, current_insurance=2245.7000000000003, project_type=New business, bank=BNP Paribas, initial_rate=4.0, fleexin_v2=1088.0503577950647, coverage=Death, TILA, TTD, PTD, PPD, professional_status=Dirigeant, gérant (hors agricole), loan_effective_date=10/26/16})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Basics-class-passed -->
+          <div class="suite-Data_Driven_Basics-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Login_TC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin">
+                  </a> <!-- doLogin -->
+                  <span class="method-name">doLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Basics-class-passed -->
+        </div> <!-- panel Data_Driven_Basics -->
+        <div panel-name="test-xml-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hugo.oliveira\eclipse-workspace\Pagode-Simulator-Tests\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Data Driven Basics&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.Login_TC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test name=&quot;Run Simulation Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.Simulator_TC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run Simulation Test --&gt;
+&lt;/suite&gt; &lt;!-- Data Driven Basics --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Data Driven Basics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Run Simulation Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Data Driven Basics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Data Driven Basics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Data_Driven_Basics');
+function tableData_Data_Driven_Basics() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(47);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runSimulation')
+data.setCell(0, 2, 'testcases.Simulator_TC')
+data.setCell(0, 3, 28816);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runSimulation')
+data.setCell(1, 2, 'testcases.Simulator_TC')
+data.setCell(1, 3, 20778);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runSimulation')
+data.setCell(2, 2, 'testcases.Simulator_TC')
+data.setCell(2, 3, 17771);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runSimulation')
+data.setCell(3, 2, 'testcases.Simulator_TC')
+data.setCell(3, 3, 17373);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runSimulation')
+data.setCell(4, 2, 'testcases.Simulator_TC')
+data.setCell(4, 3, 17340);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runSimulation')
+data.setCell(5, 2, 'testcases.Simulator_TC')
+data.setCell(5, 3, 16942);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runSimulation')
+data.setCell(6, 2, 'testcases.Simulator_TC')
+data.setCell(6, 3, 16509);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runSimulation')
+data.setCell(7, 2, 'testcases.Simulator_TC')
+data.setCell(7, 3, 16313);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runSimulation')
+data.setCell(8, 2, 'testcases.Simulator_TC')
+data.setCell(8, 3, 15859);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runSimulation')
+data.setCell(9, 2, 'testcases.Simulator_TC')
+data.setCell(9, 3, 15656);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runSimulation')
+data.setCell(10, 2, 'testcases.Simulator_TC')
+data.setCell(10, 3, 15582);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runSimulation')
+data.setCell(11, 2, 'testcases.Simulator_TC')
+data.setCell(11, 3, 15428);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runSimulation')
+data.setCell(12, 2, 'testcases.Simulator_TC')
+data.setCell(12, 3, 15213);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runSimulation')
+data.setCell(13, 2, 'testcases.Simulator_TC')
+data.setCell(13, 3, 14956);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runSimulation')
+data.setCell(14, 2, 'testcases.Simulator_TC')
+data.setCell(14, 3, 14835);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runSimulation')
+data.setCell(15, 2, 'testcases.Simulator_TC')
+data.setCell(15, 3, 14807);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runSimulation')
+data.setCell(16, 2, 'testcases.Simulator_TC')
+data.setCell(16, 3, 14767);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runSimulation')
+data.setCell(17, 2, 'testcases.Simulator_TC')
+data.setCell(17, 3, 14764);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runSimulation')
+data.setCell(18, 2, 'testcases.Simulator_TC')
+data.setCell(18, 3, 14504);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runSimulation')
+data.setCell(19, 2, 'testcases.Simulator_TC')
+data.setCell(19, 3, 14403);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runSimulation')
+data.setCell(20, 2, 'testcases.Simulator_TC')
+data.setCell(20, 3, 14048);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runSimulation')
+data.setCell(21, 2, 'testcases.Simulator_TC')
+data.setCell(21, 3, 14017);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runSimulation')
+data.setCell(22, 2, 'testcases.Simulator_TC')
+data.setCell(22, 3, 13966);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runSimulation')
+data.setCell(23, 2, 'testcases.Simulator_TC')
+data.setCell(23, 3, 13864);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runSimulation')
+data.setCell(24, 2, 'testcases.Simulator_TC')
+data.setCell(24, 3, 13427);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runSimulation')
+data.setCell(25, 2, 'testcases.Simulator_TC')
+data.setCell(25, 3, 13339);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runSimulation')
+data.setCell(26, 2, 'testcases.Simulator_TC')
+data.setCell(26, 3, 13285);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runSimulation')
+data.setCell(27, 2, 'testcases.Simulator_TC')
+data.setCell(27, 3, 13085);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'runSimulation')
+data.setCell(28, 2, 'testcases.Simulator_TC')
+data.setCell(28, 3, 12859);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'runSimulation')
+data.setCell(29, 2, 'testcases.Simulator_TC')
+data.setCell(29, 3, 12794);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runSimulation')
+data.setCell(30, 2, 'testcases.Simulator_TC')
+data.setCell(30, 3, 12769);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runSimulation')
+data.setCell(31, 2, 'testcases.Simulator_TC')
+data.setCell(31, 3, 12699);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runSimulation')
+data.setCell(32, 2, 'testcases.Simulator_TC')
+data.setCell(32, 3, 12080);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'runSimulation')
+data.setCell(33, 2, 'testcases.Simulator_TC')
+data.setCell(33, 3, 12080);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'runSimulation')
+data.setCell(34, 2, 'testcases.Simulator_TC')
+data.setCell(34, 3, 12069);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'runSimulation')
+data.setCell(35, 2, 'testcases.Simulator_TC')
+data.setCell(35, 3, 11995);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'runSimulation')
+data.setCell(36, 2, 'testcases.Simulator_TC')
+data.setCell(36, 3, 11928);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'runSimulation')
+data.setCell(37, 2, 'testcases.Simulator_TC')
+data.setCell(37, 3, 11698);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'runSimulation')
+data.setCell(38, 2, 'testcases.Simulator_TC')
+data.setCell(38, 3, 11698);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'runSimulation')
+data.setCell(39, 2, 'testcases.Simulator_TC')
+data.setCell(39, 3, 11694);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'runSimulation')
+data.setCell(40, 2, 'testcases.Simulator_TC')
+data.setCell(40, 3, 11693);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'runSimulation')
+data.setCell(41, 2, 'testcases.Simulator_TC')
+data.setCell(41, 3, 11589);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'runSimulation')
+data.setCell(42, 2, 'testcases.Simulator_TC')
+data.setCell(42, 3, 11536);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'runSimulation')
+data.setCell(43, 2, 'testcases.Simulator_TC')
+data.setCell(43, 3, 11443);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'runSimulation')
+data.setCell(44, 2, 'testcases.Simulator_TC')
+data.setCell(44, 3, 11420);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'runSimulation')
+data.setCell(45, 2, 'testcases.Simulator_TC')
+data.setCell(45, 3, 11297);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'doLogin')
+data.setCell(46, 2, 'testcases.Login_TC')
+data.setCell(46, 3, 8290);
+window.suiteTableData['Data_Driven_Basics']= { tableData: data, tableDiv: 'times-div-Data_Driven_Basics'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Data_Driven_Basics">
+              </div> <!-- times-div-Data_Driven_Basics -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Data Driven Basics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runSimulation({birth_date=3/18/80, fleexin_fixe=972.9958491130034, loan_initial_duration=70.0, initial_capital=577...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Verification failure : FleeXin Coti Fixe -  Expected : 972  found :  973<br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Mar_07_16_59_32_GMT_2019.jpg><img src=Thu_Mar_07_16_59_32_GMT_2019.jpg height=200 width=200></img></a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runSimulation({birth_date=1/20/87, fleexin_fixe=1744.7411178602995, loan_initial_duration=249.0, initial_capital=1...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Mar_07_16_57_44_GMT_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Mar_07_16_57_44_GMT_2019.jpg><img src=Thu_Mar_07_16_57_44_GMT_2019.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runSimulation({birth_date=6/21/80, fleexin_fixe=28705.51482830813, loan_initial_duration=143.0, initial_capital=48...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Mar_07_16_54_44_GMT_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Mar_07_16_54_44_GMT_2019.jpg><img src=Thu_Mar_07_16_54_44_GMT_2019.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runSimulation({birth_date=11/30/87, fleexin_fixe=74700.65031803571, loan_initial_duration=223.0, initial_capital=9...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Mar_07_17_00_14_GMT_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Mar_07_17_00_14_GMT_2019.jpg><img src=Thu_Mar_07_17_00_14_GMT_2019.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Simulator_TC</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Login_TC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doLogin</span>
+                <span class="method-start">6550 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Simulator_TC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=67...)</span>
+                <span class="method-start">15117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=9/16/89, fleexin_fixe=20728.23262980016, loan_initial_duration=89.0, initial_capital=871...)</span>
+                <span class="method-start">35949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=4/24/83, fleexin_fixe=11259.2128884763, loan_initial_duration=59.0, initial_capital=3870...)</span>
+                <span class="method-start">47721 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=1/3/95, fleexin_fixe=2503.1290129225035, loan_initial_duration=91.0, initial_capital=237...)</span>
+                <span class="method-start">59493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=5/27/80, fleexin_fixe=856.0330354678672, loan_initial_duration=97.0, initial_capital=425...)</span>
+                <span class="method-start">71632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=5/11/90, fleexin_fixe=13071.59801776818, loan_initial_duration=91.0, initial_capital=742...)</span>
+                <span class="method-start">86083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runSimulation({birth_date=6/21/80, fleexin_fixe=28705.51482830813, loan_initial_duration=143.0, initial_capital=48...)</span>
+                <span class="method-start">100886 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=4/5/83, fleexin_fixe=19106.631843656636, loan_initial_duration=57.0, initial_capital=370...)</span>
+                <span class="method-start">119053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=11/25/81, fleexin_fixe=178900.02393583744, loan_initial_duration=188.0, initial_capital=...)</span>
+                <span class="method-start">130686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=8/3/87, fleexin_fixe=63742.64864638662, loan_initial_duration=244.0, initial_capital=249...)</span>
+                <span class="method-start">146306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=5/21/92, fleexin_fixe=26910.917089969196, loan_initial_duration=117.0, initial_capital=7...)</span>
+                <span class="method-start">161295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=1/24/89, fleexin_fixe=4378.694731330493, loan_initial_duration=57.0, initial_capital=470...)</span>
+                <span class="method-start">172666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=7/4/88, fleexin_fixe=92438.54817659344, loan_initial_duration=195.0, initial_capital=819...)</span>
+                <span class="method-start">185478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=8/3/94, fleexin_fixe=64798.96878296429, loan_initial_duration=225.0, initial_capital=900...)</span>
+                <span class="method-start">198858 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=5/15/83, fleexin_fixe=48571.23921486063, loan_initial_duration=182.0, initial_capital=92...)</span>
+                <span class="method-start">211690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=7/20/85, fleexin_fixe=1950.7966203305145, loan_initial_duration=241.0, initial_capital=1...)</span>
+                <span class="method-start">225741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=6/2/87, fleexin_fixe=59303.49432496654, loan_initial_duration=214.0, initial_capital=602...)</span>
+                <span class="method-start">241207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=7/12/89, fleexin_fixe=564.4908019140272, loan_initial_duration=214.0, initial_capital=65...)</span>
+                <span class="method-start">256453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=10/25/95, fleexin_fixe=1064.4568991409628, loan_initial_duration=21.0, initial_capital=1...)</span>
+                <span class="method-start">270357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runSimulation({birth_date=1/20/87, fleexin_fixe=1744.7411178602995, loan_initial_duration=249.0, initial_capital=1...)</span>
+                <span class="method-start">281926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=12/31/80, fleexin_fixe=190102.68360279716, loan_initial_duration=241.0, initial_capital=...)</span>
+                <span class="method-start">299761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=7/7/91, fleexin_fixe=6929.162441257624, loan_initial_duration=104.0, initial_capital=255...)</span>
+                <span class="method-start">315662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=6/19/87, fleexin_fixe=17222.665544958352, loan_initial_duration=106.0, initial_capital=3...)</span>
+                <span class="method-start">329134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=6/13/82, fleexin_fixe=61198.86629718451, loan_initial_duration=207.0, initial_capital=69...)</span>
+                <span class="method-start">341169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=2/10/85, fleexin_fixe=1913.4827507066134, loan_initial_duration=139.0, initial_capital=8...)</span>
+                <span class="method-start">356880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=6/26/93, fleexin_fixe=22995.94189955639, loan_initial_duration=111.0, initial_capital=64...)</span>
+                <span class="method-start">370240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=11/6/90, fleexin_fixe=2037.2550901903815, loan_initial_duration=18.0, initial_capital=67...)</span>
+                <span class="method-start">381981 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=3/18/80, fleexin_fixe=972.9958491130034, loan_initial_duration=70.0, initial_capital=577...)</span>
+                <span class="method-start">394111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=1/28/81, fleexin_fixe=596.4091881459306, loan_initial_duration=136.0, initial_capital=11...)</span>
+                <span class="method-start">406847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=6/7/94, fleexin_fixe=1295.5013208749174, loan_initial_duration=154.0, initial_capital=47...)</span>
+                <span class="method-start">419966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runSimulation({birth_date=11/30/87, fleexin_fixe=74700.65031803571, loan_initial_duration=223.0, initial_capital=9...)</span>
+                <span class="method-start">431942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=4/6/80, fleexin_fixe=13105.881381156429, loan_initial_duration=182.0, initial_capital=34...)</span>
+                <span class="method-start">449265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=3/24/94, fleexin_fixe=7195.291394724618, loan_initial_duration=86.0, initial_capital=186...)</span>
+                <span class="method-start">478137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=6/19/93, fleexin_fixe=45904.58647003648, loan_initial_duration=107.0, initial_capital=85...)</span>
+                <span class="method-start">490250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=10/6/84, fleexin_fixe=126382.91072358892, loan_initial_duration=222.0, initial_capital=7...)</span>
+                <span class="method-start">505053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=8/17/81, fleexin_fixe=101296.88431314733, loan_initial_duration=219.0, initial_capital=7...)</span>
+                <span class="method-start">519594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=11/17/93, fleexin_fixe=99544.755437699, loan_initial_duration=237.0, initial_capital=403...)</span>
+                <span class="method-start">534433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=11/1/91, fleexin_fixe=9402.35320224165, loan_initial_duration=174.0, initial_capital=665...)</span>
+                <span class="method-start">548449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=11/29/87, fleexin_fixe=21835.33825119622, loan_initial_duration=106.0, initial_capital=8...)</span>
+                <span class="method-start">564990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=12/19/80, fleexin_fixe=2875.5626967255293, loan_initial_duration=234.0, initial_capital=...)</span>
+                <span class="method-start">576444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=9/13/93, fleexin_fixe=7292.817889560081, loan_initial_duration=163.0, initial_capital=38...)</span>
+                <span class="method-start">593859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=9/4/85, fleexin_fixe=35189.59740155776, loan_initial_duration=203.0, initial_capital=379...)</span>
+                <span class="method-start">606755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=11/7/91, fleexin_fixe=73844.27737063859, loan_initial_duration=212.0, initial_capital=50...)</span>
+                <span class="method-start">623109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=1/24/95, fleexin_fixe=18431.590776616227, loan_initial_duration=106.0, initial_capital=8...)</span>
+                <span class="method-start">637229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=9/1/87, fleexin_fixe=2927.0573222228004, loan_initial_duration=121.0, initial_capital=11...)</span>
+                <span class="method-start">648709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runSimulation({birth_date=1/31/87, fleexin_fixe=2810.300921807474, loan_initial_duration=226.0, initial_capital=21...)</span>
+                <span class="method-start">660470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">675379 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
