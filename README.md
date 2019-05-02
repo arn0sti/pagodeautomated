@@ -1,19 +1,19 @@
-# Pagode Simulator Automated Test
+<h2>Pagode Simulator Automated Test</h2>
 
-Project Requirements  : <br>
- 1 - Intelij IDE - Not required but this is as simple as it gets, just download the project and run it.
- 2 - xls File with apropriated structure
- 3 - Chrome Webdriver - Already incorporated in the project
- 4 - Configure some file paths. I.e Chrome WebDriver location
+<h3>Project Requirements  :</h3> <br>
+ 1 - Intelij IDE - Not required but this is as simple as it gets, just download the project and run it.<br>
+ 2 - xls File with apropriated structure<br>
+ 3 - Chrome Webdriver - Already incorporated in the project<br>
+ 4 - Configure some file paths. I.e Chrome WebDriver location<br>
+ <br><br>
  
+<h3>Project instructions :</h3><br>
+ 1 - Download/Clone this project<br>
+ 2 - Open it in your IDE<br>
+ 3 - Synchronize the POM file<br><br>
+ 4 - Run the project from the testNG file <br>
+    src > test > resources > runner > testng.xml <br>
  
-Project instructions :
- 1 - Download/Clone this project
- 2 - Open it in your IDE
- 3 - Synchronize the POM file
- 4 - Run the project from the testNG file 
-    src > test > resources > runner > testng.xml 
- 
-Reports :
- 1- After test execution go to the extent.html file
-    target > surefire-reports > html > extent.html
+<h3>Reports :</h3><br>
+ 1- After test execution go to the extent.html file<br>
+    target > surefire-reports > html > extent.html<br>
