@@ -1,6 +1,6 @@
 # Pagode Simulator Automated Test
 
-Project Requirements  :
+Project Requirements  : <br>
  1 - Intelij IDE - Not required but this is as simple as it gets, just download the project and run it.
  2 - xls File with apropriated structure
  3 - Chrome Webdriver - Already incorporated in the project
